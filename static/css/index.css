@@ -134,4 +134,160 @@ body {
 }
 
 
+.traj_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.traj_container img {
+    width: 30%; /* 根据需要调整图片宽度 */
+    height: auto; /* 保持图片的原始宽高比 */
+}
+.traj_container img:nth-child(1) {
+    width: 35%; /* 第一张图片宽度稍大 */
+}
+.traj_container img:nth-child(2) {
+    width: 35%; /* 第二张图片宽度稍小 */
+}
+.traj_container img:nth-child(3) {
+    width: 35%; /* 第三张图片宽度稍小 */
+}
+.traj_container img:nth-child(1)::after {
+    content: "Office"; /* 图片1的说明标注 */
+    display: block;
+    text-align: center;
+    margin-top: 5px; /* 说明标注与图片的间距 */
+}
+.traj_container img:nth-child(2)::after {
+    content: "Supermarket"; /* 图片2的说明标注 */
+    display: block;
+    text-align: center;
+    margin-top: 5px; /* 说明标注与图片的间距 */
+}
+.traj_container img:nth-child(3)::after {
+    content: "Gym"; /* 图片3的说明标注 */
+    display: block;
+    text-align: center;
+    margin-top: 5px; /* 说明标注与图片的间距 */
+}
+
+
+.partners {
+    padding: 140px 0 110px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: #f4f5f9; }
+    .partners h2 {
+      font: 600 36px/1 "Source Sans Pro";
+      margin: 0 0 20px;
+      text-transform: uppercase;
+      color: #6a6a6a; }
+    .partners p {
+      font: 400 14px/25px "Source Sans Pro";
+      margin-bottom: 0; }
+    .partners--container {
+      margin-top: 30px;
+      float: left;
+      width: 100%;
+      display: block; }
+    .partners--item {
+      position: relative;
+      z-index: 1;
+      float: left;
+      width: 17%;
+      margin: 0 1.5% 30px;
+      text-align: center;
+      background: #ffffff; }
+      .partners--item__image {
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 10px;
+        height: 170px;
+        -webkit-box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
+        box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
+      }
+      
+      .partners--item__image img {
+        -webkit-filter: none;
+        filter: none;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+
+
+
+.get-started {
+        padding: 140px 0;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        color: #ffffff;
+        background-image: url("../images/Synthetic_Data.png");
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-position: center; }
+        .get-started:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.6);
+          z-index: 0; }
+        .get-started .container {
+          position: relative;
+          z-index: 1; }
+        .get-started h2 {
+          font: 600 36px/1 "Source Sans Pro";
+          margin: 0 0 20px;
+          text-transform: uppercase; }
+        .get-started p {
+          font: 400 18px/25px "Source Sans Pro";
+          margin-bottom: 70px; 
+}
+.button {
+    display: inline-block;
+    min-width: 225px;
+    padding: 10px 0;
+    border: 2px solid #3c88e7;
+    text-align: center;
+    font: 900 16px/1 "Open Sans";
+    background: #3c88e7;
+    color: #ffffff;
+    margin: 0 0px 0 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
+    .button-w {
+      background: none;
+      border-color: #ffffff;
+      margin: 0; }
+    .button.small {
+      padding: 14px 0;
+      font-size: 12px;
+      min-width: 145px; }
+    .button:hover {
+      background: transparent;
+      color: #3c88e7;
+      border-color: #3c88e7; }
 
