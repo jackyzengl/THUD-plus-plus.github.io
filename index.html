@@ -1,123 +1,129 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="A Comprehensive Mobile Robot Oriented Dataset for Dynamic Scene Understanding">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/Robotics.svg" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="THUD++: Large-Scale Dynamic Indoor Scene Dataset and Benchmark for Mobile Robots">
+    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+    <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+    <meta property="og:url" content="URL OF THE WEBSITE" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/Robotics.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/image/Robotics.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="Robotics, Mobile Robots, Dynamic Scene Understanding, Dataset">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/image/Robotics.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="Robotics, Mobile Robots, Dynamic Scene Understanding, Dataset">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>THUD++: Large-Scale Dynamic Indoor Scene Dataset and Benchmark for Mobile Robots</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+    <title>THUD++: Large-Scale Dynamic Indoor Scene Dataset and Benchmark for Mobile Robots</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
 </head>
+
 <body>
 
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">THUD++: Large-Scale Dynamic Indoor Scene Dataset and Benchmark for Mobile Robots</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://github.com/lzes" target="_blank">Zeshun Li</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="https://scholar.google.com/citations?user=AXTFYCcAAAAJ&hl=zh-CN&oi=sra" target="_blank">Fuhao Li</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=V6mBA5IAAAAJ" target="_blank">Wanting Zhang</a><sup>*</sup>, </span>
-                    <span class="author-block">
-                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Zijie Zheng</a>, </span>
-                      <span class="author-block">
-                        <a href="https://www.sigs.tsinghua.edu.cn/lxp/main.htm" target="_blank">Xueping Liu</a>, </span>
-                        <span class="author-block">
-                            <a href="https://www.cs.tsinghua.edu.cn/info/1116/3535.htm" target="_blank">Yongjin Liu</a>, </span>
-                        <span class="author-block">
-                          <a href="https://www.sigs.tsinghua.edu.cn/cl/main.htm" target="_blank">Long Zeng</a><sup>✉</sup></span>
-                          <span class="author-block">
-                  </span>
-                  </div>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">THUD++: Large-Scale Dynamic Indoor Scene Dataset and
+                            Benchmark for Mobile Robots</h1>
+                        <div class="is-size-5 publication-authors">
+                            <!-- Paper authors -->
+                            <span class="author-block">
+                                <a href="https://github.com/lzes" target="_blank">Zeshun Li</a><sup>*</sup>,</span>
+                            <span class="author-block">
+                                <a href="https://scholar.google.com/citations?user=AXTFYCcAAAAJ&hl=zh-CN&oi=sra"
+                                    target="_blank">Fuhao Li</a><sup>*</sup>,</span>
+                            <span class="author-block">
+                                <a href="https://scholar.google.com/citations?user=V6mBA5IAAAAJ" target="_blank">Wanting
+                                    Zhang</a><sup>*</sup>, </span>
+                            <span class="author-block">
+                                <a href="https://github.com/Anthony-Cheang" target="_blank">Zijie Zheng</a>, </span>
+                            <span class="author-block">
+                                <a href="https://www.sigs.tsinghua.edu.cn/lxp/main.htm" target="_blank">Xueping Liu</a>,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://www.cs.tsinghua.edu.cn/info/1116/3535.htm" target="_blank">Yongjin
+                                    Liu</a>, </span>
+                            <span class="author-block">
+                                <a href="https://www.sigs.tsinghua.edu.cn/cl/main.htm" target="_blank">Long
+                                    Zeng</a><sup>✉</sup></span>
+                            <span class="author-block">
+                            </span>
+                        </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Tsinghua University</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">Tsinghua University</span>
+                            <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                        </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
 
-                        <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                        <a href="static/pdfs/THUD_Robotic_Dataset_TOS.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Dataset Application</span>
-                      </a>
-                    </span>
-                    
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/abs/2406.19791" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="ai ai-arxiv"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+                                <!-- Supplementary PDF link -->
+                                <span class="link-block">
+                                    <a href="static/pdfs/THUD_Robotic_Dataset_TOS.pdf" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Dataset Application</span>
+                                    </a>
+                                </span>
 
-                    
+                                <!-- Arxiv PDF link -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2412.08096" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>Paper</span>
+                                    </a>
+                                </span>
 
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/jackyzengl/THUD_Dataset_Overview" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
 
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
+
+                                <!-- Github link -->
+                                <span class="link-block">
+                                    <a href="https://github.com/jackyzengl/THUD_Dataset_Overview" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+
+                                <!-- ArXiv abstract Link -->
+                                <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -126,212 +132,238 @@
                   <span>arXiv</span>
                 </a>
               </span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/dataset_v4.mp4"
-        type="video/mp4">
-      </video>
-      <!-- <h2 class="subtitle has-text-centered">
+    <!-- Teaser video-->
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <video poster="" id="tree" autoplay controls muted loop height="100%">
+                    <!-- Your video here -->
+                    <source src="static/videos/dataset_v4.mp4" type="video/mp4">
+                </video>
+                <!-- <h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
       </h2> -->
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-
-
-
-<!-- Paper abstract -->
-<section class="section hero">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Most existing mobile robotic datasets primarily capture static scenes, limiting their utility for evaluating robotic performance in dynamic environments. To address this, we present a mobile robot oriented large-scale indoor dataset, denoted as THUD++ (TsingHua University Dynamic) robotic dataset, for dynamic scene understanding. Our current dataset includes 13 large-scale dynamic scenarios, combining both real-world and synthetic data collected with a real robot platform and a physical simulation platform, respectively. The RGB-D dataset comprises over 90K image frames, 20M 2D/3D bounding boxes of static and dynamic objects, camera poses, and IMU. The trajectory dataset covers over 6,000 pedestrian trajectories in indoor scenes. Additionally, the dataset is augmented with a Unity3D-based simulation platform, allowing researchers to create custom scenes and test algorithms in a controlled environment.
-            We evaluate state-of-the-art methods on THUD++ across mainstream indoor scene understanding tasks, e.g., 3D object detection, semantic segmentation, relocalization, pedestrian trajectory prediction, and navigation. Our experiments highlight the challenges mobile robots encounter in indoor environments, especially when navigating in complex, crowded, and dynamic scenes. By sharing this dataset, we aim to accelerate the development and testing of mobile robot algorithms, contributing to real-world robotic applications.
-          </p>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+    </section>
+    <!-- End teaser video -->
 
-<section class="section hero">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Overview</h2>
-          <div class="content has-text-justified">
-            <img src="static/images/mainfigure.svg" alt="MY ALT TEXT"/>
-            <p>
-                <b>Overview of THUD++ robotic dataset</b>, first column: real and synthetic data acquisition platforms; second column: real and synthetic scenarios; third column: dataset components and annotations; fourth column: supported applications.
+
+
+
+    <!-- Paper abstract -->
+    <section class="section hero">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Most existing mobile robotic datasets primarily capture static scenes, limiting their
+                            utility for evaluating robotic performance in dynamic environments. To address this, we
+                            present a mobile robot oriented large-scale indoor dataset, denoted as THUD++ (TsingHua
+                            University Dynamic) robotic dataset, for dynamic scene understanding. Our current dataset
+                            includes 13 large-scale dynamic scenarios, combining both real-world and synthetic data
+                            collected with a real robot platform and a physical simulation platform, respectively. The
+                            RGB-D dataset comprises over 90K image frames, 20M 2D/3D bounding boxes of static and
+                            dynamic objects, camera poses, and IMU. The trajectory dataset covers over 6,000 pedestrian
+                            trajectories in indoor scenes. Additionally, the dataset is augmented with a Unity3D-based
+                            simulation platform, allowing researchers to create custom scenes and test algorithms in a
+                            controlled environment.
+                            We evaluate state-of-the-art methods on THUD++ across mainstream indoor scene understanding
+                            tasks, e.g., 3D object detection, semantic segmentation, relocalization, pedestrian
+                            trajectory prediction, and navigation. Our experiments highlight the challenges mobile
+                            robots encounter in indoor environments, especially when navigating in complex, crowded, and
+                            dynamic scenes. By sharing this dataset, we aim to accelerate the development and testing of
+                            mobile robot algorithms, contributing to real-world robotic applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End paper abstract -->
+
+    <section class="section hero">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Overview</h2>
+                    <div class="content has-text-justified">
+                        <img src="static/images/mainfigure.svg" alt="MY ALT TEXT" />
+                        <p>
+                            <b>Overview of THUD++ robotic dataset</b>, first column: real and synthetic data acquisition
+                            platforms; second column: real and synthetic scenarios; third column: dataset components and
+                            annotations; fourth column: supported applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section hero">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Unity3D-based simulation platform</h2>
+                    <div class="content has-text-justified">
+                        <img src="static/images/simulation_platform.svg" alt="MY ALT TEXT" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Video carousel -->
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-centered has-text-centered">
+                <h2 class="title is-3">Real & Synthetic Scenes</h2>
+                <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item item-video1" style="text-align: center;">
+                        <h2 class="subtitle has-text-centered">
+                            Real Scenes
+                        </h2>
+                        <img src="static/images/RealScenes.png" alt="MY ALT TEXT" />
+                    </div>
+                    <div class="item item-video2" style="text-align: center;">
+                        <h2 class="subtitle has-text-centered">
+                            Synthetic Scenes
+                        </h2>
+                        <img src="static/images/SyntheticScenes.png" alt="MY ALT TEXT" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End video carousel -->
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-centered has-text-centered">
+                <!-- Paper video. -->
+                <h2 class="title is-3">RGB-D Dataset</h2>
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <img src="static/images/RGB-D.png" alt="MY ALT TEXT" />
+                        <img src="static/images/Statistics.png" alt="MY ALT TEXT" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-centered has-text-centered">
+                <!-- Paper video. -->
+                <h2 class="title is-3">Trajectory Dataset</h2>
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <img src="static/images/trajectory.png" alt="MY ALT TEXT" />
+                        <div class="traj_container">
+                            <img src="static/images/traj2.png" alt="MY ALT TEXT" />
+                            <img src="static/images/traj1.png" alt="MY ALT TEXT" />
+                            <img src="static/images/traj3.png" alt="MY ALT TEXT" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-centered has-text-centered">
+                <!-- Paper video. -->
+                <h2 class="title is-3">Closed-Loop Navigation Emulator</h2>
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <img src="static/images/navigation_simulator.svg" alt="MY ALT TEXT" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="partners">
+        <div class="container">
+            <h2>Cooperative unit</h2>
+            <p>Thank you to the following units for their support and assistance.</p>
+            <span class="dot-dash dark">.</span>
+            <div class="partners--container">
+                <div class="partners--item">
+                    <div class="partners--item__image">
+                        <img src="static/images/thu3.png" alt="MY ALT TEXT">
+                    </div>
+                </div>
+                <div class="partners--item">
+                    <div class="partners--item__image">
+                        <img src="static/images/shuju&xinxi.png" alt="MY ALT TEXT">
+                    </div>
+                </div>
+                <div class="partners--item">
+                    <div class="partners--item__image">
+                        <img src="static/images/immv_sigle.png" alt="MY ALT TEXT">
+                    </div>
+                </div>
+                <div class="partners--item">
+                    <div class="partners--item__image">
+                        <img src="static/images/pudu.png" alt="MY ALT TEXT">
+                    </div>
+                </div>
+                <div class="partners--item">
+                    <div class="partners--item__image">
+                        <img src="static/images/pudu_tech.png" alt="MY ALT TEXT">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="get-started" id="BibTeX">
+        <div class="container">
+            <h2>If you use THUD++ dataset or code please cite:</h2>
+            <p>@misc{li2024thudlargescaledynamicindoor,<br>
+                title={THUD++: Large-Scale Dynamic Indoor Scene Dataset and Benchmark for Mobile Robots}, <br>
+                author={Zeshun Li and Fuhao Li and Wanting Zhang and Zijie Zheng and Xueping Liu and Yongjin Liu and Long Zeng},<br>
+                year={2024},
+                eprint={2412.08096},
+                archivePrefix={arXiv},
+                primaryClass={cs.RO},
+                url={https://arxiv.org/abs/2412.08096}
+                }
             </p>
-          </div>
+            <p>@inproceedings{2024ICRA,<br>
+                title={Mobile Oriented Large-Scale Indoor Dataset for Dynamic Scene Understanding},<br>
+                author={Yi-Fan Tang, Cong Tai, Fang-Xin Chen, Wan-Ting Zhang, Tao Zhang, Yong-Jin Liu, Long Zeng*},<br>
+                booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+                pages={613--620},
+                year={2024},
+                organization={IEEE}
+                }
+            </p>
+            <a href="#" class="button">full papers</a>
         </div>
-      </div>
-    </div>
-</section>
-
-<section class="section hero">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Unity3D-based simulation platform</h2>
-          <div class="content has-text-justified">
-            <img src="static/images/simulation_platform.svg" alt="MY ALT TEXT"/>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
+    </section>
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-centered has-text-centered">
-      <h2 class="title is-3">Real & Synthetic Scenes</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1" style="text-align: center;">
-            <h2 class="subtitle has-text-centered">
-               Real Scenes
-            </h2>
-            <img src="static/images/RealScenes.png" alt="MY ALT TEXT"/>
-        </div>
-        <div class="item item-video2" style="text-align: center;">
-            <h2 class="subtitle has-text-centered">
-                Synthetic Scenes
-             </h2>
-            <img src="static/images/SyntheticScenes.png" alt="MY ALT TEXT"/>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-<section class="hero is-small">
-    <div class="hero-body">
-      <div class="container is-centered has-text-centered">
-        <!-- Paper video. -->
-        <h2 class="title is-3">RGB-D Dataset</h2>
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <img src="static/images/RGB-D.png" alt="MY ALT TEXT"/>
-            <img src="static/images/Statistics.png" alt="MY ALT TEXT"/>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-
-<section class="hero is-small">
-    <div class="hero-body">
-      <div class="container is-centered has-text-centered">
-        <!-- Paper video. -->
-        <h2 class="title is-3">Trajectory Dataset</h2>
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <img src="static/images/trajectory.png" alt="MY ALT TEXT"/>
-            <div class="traj_container">
-              <img src="static/images/traj2.png" alt="MY ALT TEXT"/>
-              <img src="static/images/traj1.png" alt="MY ALT TEXT"/>
-              <img src="static/images/traj3.png" alt="MY ALT TEXT"/>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-
-<section class="hero is-small">
-    <div class="hero-body">
-      <div class="container is-centered has-text-centered">
-        <!-- Paper video. -->
-        <h2 class="title is-3">Closed-Loop Navigation Emulator</h2>
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <img src="static/images/navigation_simulator.svg" alt="MY ALT TEXT"/>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-
-
-<section class="partners">
-    <div class="container">
-        <h2>Cooperative unit</h2>
-        <p>Thank you to the following units for their support and assistance.</p>
-        <span class="dot-dash dark">.</span>
-        <div class="partners--container">
-            <div class="partners--item">
-                <div class="partners--item__image">
-                    <img src="static/images/thu3.png" alt="MY ALT TEXT">
-                </div>
-            </div>
-            <div class="partners--item">
-                <div class="partners--item__image">
-                    <img src="static/images/shuju&xinxi.png" alt="MY ALT TEXT">
-                </div>
-            </div>
-            <div class="partners--item">
-                <div class="partners--item__image">
-                    <img src="static/images/immv_sigle.png" alt="MY ALT TEXT">
-                </div>
-            </div>
-            <div class="partners--item">
-                <div class="partners--item__image">
-                    <img src="static/images/pudu.png" alt="MY ALT TEXT">
-                </div>
-            </div>
-            <div class="partners--item">
-                <div class="partners--item__image">
-                    <img src="static/images/pudu_tech.png" alt="MY ALT TEXT">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="get-started" id="BibTeX">
-    <div class="container">
-        <h2>If you use THUD++ dataset or code please cite:</h2>
-        <p>@inproceedings{2024ICRA,<br>
-            title={Mobile Oriented Large-Scale Indoor Dataset for Dynamic Scene Understanding},<br>
-            author={Yi-Fan Tang, Cong Tai, Fang-Xin Chen, Wan-Ting Zhang, Tao Zhang, Yong-Jin Liu, Long Zeng*},<br>
-            booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
-            pages={613--620},
-            year={2024},
-            organization={IEEE}
-              }
-        </p>
-        <a href="#" class="button">full papers</a>
-    </div>
-</section>
-
-
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
+    <!-- Paper poster -->
+    <!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -342,20 +374,20 @@
       </div>
     </div>
   </section> -->
-<!--End paper poster -->
+    <!--End paper poster -->
 
 
-<!--BibTex citation -->
-  <!-- <section class="section" id="BibTeX">
+    <!--BibTex citation -->
+    <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
 </section> -->
-<!--End BibTex citation -->
+    <!--End BibTex citation -->
 
 
-  <!-- <footer class="footer">
+    <!-- <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
@@ -367,11 +399,12 @@
   </div>
 </footer> -->
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+    <!-- Statcounter tracking code -->
+
+    <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+
+</html>
